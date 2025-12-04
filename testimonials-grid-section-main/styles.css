@@ -1,0 +1,31 @@
+* {
+    background-color: hsl(260, 100%, 95%);
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: BarlowSemiCondensed;
+    src: url(./BarlowSemiCondensed-Regular.ttf);
+}
+
+.danielclifford {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(260, 100%, 95%);
+    font-family: BarlowSemiCondensed;
+    border-radius: 10px;
+}
+
+#danielcliffordimg {
+    clip-path: circle();
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+}
