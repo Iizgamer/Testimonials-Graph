@@ -1,6 +1,7 @@
 * {
     background-color: hsl(260, 100%, 95%);
-    font-size: 13px;
+    font-size: 13px;    
+    font-family: BarlowSemiCondensed;
 }
 
 @font-face {
@@ -11,12 +12,46 @@
 .danielclifford {
     background-color: hsl(263, 55%, 52%);
     color: hsl(260, 100%, 95%);
-    font-family: BarlowSemiCondensed;
     border-radius: 10px;
+    padding: 10px;
+}
+
+#danielcliffordbox {
+    width: 550px;
 }
 
 #danielcliffordimg {
-    clip-path: circle();
+    border-radius: 50px;
+    float: left;
+    width: 40px;
+    border: 2px solid hsl(264, 82%, 80%);
+    padding: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+#cliffordname {
+    margin-bottom: -5px;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+#subtitleclifford {
+    display: inline;
+    padding-top: 00px;
+    padding-left: 7px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#bigtextclifford {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 .attribution {
