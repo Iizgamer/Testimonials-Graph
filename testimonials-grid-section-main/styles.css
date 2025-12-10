@@ -48,10 +48,30 @@
     font-weight: 400;
 }
 
+#overlapcontainerdaniel {
+    position: relative;
+    background-color: hsl(263, 55%, 52%);
+}
+
+#quote-img {
+    background-color: hsl(263, 55%, 52%);
+    margin-top: -68px;
+    margin-left: 390px;
+    position: absolute;
+}
+
 #bigtextclifford {
     font-weight: bold;
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    position: relative;
+    background-color: transparent;
+}
+
+#smalltextclifford {
+    margin-top: 0px;
 }
 
 .attribution {
