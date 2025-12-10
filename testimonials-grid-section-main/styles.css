@@ -18,6 +18,9 @@
 
 #danielcliffordbox {
     width: 550px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 10px 20px 10px 0px rgba(186, 186, 186);
 }
 
 #danielcliffordimg {
@@ -43,7 +46,7 @@
 #subtitleclifford {
     display: inline;
     padding-top: 00px;
-    padding-left: 7px;
+    padding-left: 0px;
     font-size: 10px;
     font-weight: 400;
 }
@@ -72,6 +75,108 @@
 
 #smalltextclifford {
     margin-top: 0px;
+}
+
+.jonathanwalters {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(260, 100%, 95%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#waltersbox {
+    width: 230px;
+    display: inline-block;
+    box-shadow: 10px 20px 10px 0px rgba(186, 186, 186);
+}
+
+#waltersimg {
+    border-radius: 50px;
+    float: left;
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 81%);
+    padding: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+#waltersname {
+    margin-bottom: -5px;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+#walterssubtitle {
+    display: inline;
+    padding-top: 00px;
+    padding-left: 0px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#waltersbigtext {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+#walterssmalltext {
+    margin-top: 0px;
+}
+
+.jeanetteharmon {
+    background-color: hsl(214, 17%, 92%);
+    color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#harmonbox {
+    width: 230px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 10px 0px rgba(186, 186, 186);
+}
+
+#harmonimg {
+    border-radius: 50px;
+    float: left;
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 81%);
+    padding: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+#harmonname {
+    margin-bottom: -5px;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+#harmonsubtitle {
+    display: inline;
+    padding-top: 00px;
+    padding-left: 0px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#harmonbigtext {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 .attribution {
