@@ -85,8 +85,16 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
+<<<<<<< HEAD
 - (https://pavellaptev.medium.com/css-weekly-2-an-image-on-the-left-text-on-the-left-a5e59b2acdb5) - This helped me learn how to align an image on the left, whilst keeping the text on the right. This specifically helped me with the image then the name and title in the cards.
 - (https://stackoverflow.com/questions/49243420/how-to-move-element-in-css-up-so-that-elements-underneath-will-follow) - This helped me understand how margins, borders, and paddings worked. It also made me use a negative margin, though, so...
+=======
+https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex3 - This helped me understand how to overlap elements over others.
+
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+>>>>>>> 930edd5985c5d72543bfc5d5fa8760525aca0c98
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
