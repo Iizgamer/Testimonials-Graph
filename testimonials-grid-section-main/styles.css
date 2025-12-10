@@ -11,7 +11,7 @@
 
 body {
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .danielclifford {
@@ -306,7 +306,8 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-right: 200px;
 }
 
 .attribution a {
