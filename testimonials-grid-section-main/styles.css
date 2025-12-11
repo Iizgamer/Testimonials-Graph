@@ -314,3 +314,59 @@ body {
     color: hsl(228, 45%, 44%);
     font-size: 11px;
 }
+
+@media (max-width: 900px) {
+    body {
+        margin: 0px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    #danielcliffordbox {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+        box-shadow: 10px 20px 10px 0px rgba(186, 186, 186);
+        margin-bottom: 20px;
+    }
+
+    #quote-img {
+        display:none;
+    }
+
+    #waltersbox {
+        width: 300px;
+    }
+
+    #harmonbox {
+        width: 300px;
+    }
+
+    #abramsbox {
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 0px;
+        height: 350px;
+    }
+
+    #whittlebox {
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 430px;
+    }
+
+    #whittleimg {
+        margin-top: 10px;
+    }
+
+    #whittlesubtitle {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .attribution {
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+}
