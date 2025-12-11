@@ -1,59 +1,151 @@
-# CTI-110 Final Project - Testimonials grid section
+# CTI-110 Final Project - Testimonials Grid by Nicholas Foles
 
-![Design preview for the Testimonials grid section coding challenge](./preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+- [CTI-110 Final Project - Testimonials Grid by Nicholas Foles](#cti-110-final-project---testimonials-grid-by-Nicholas-Foles)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
-Thanks for checking out this front-end coding challenge.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
+Users should be able to:
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+- View the optimal layout for the interface depending on their device's screen size
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-Your users should be able to:
+./desktop-view.png
 
-- View the optimal layout for the site depending on their device's screen size
+./mobile-view.png
 
+### Links
 
-## Where to find everything
+- Repository URL: https://github.com/Iizgamer/Testimonials-Graph.git
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+## My process
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Built with
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- Semantic HTML5 markup
+- CSS custom properties
+- Hopes, dreams, and duct tape
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### What I learned
 
-## Building your project
+I learned that making a website 1 to 1 to a design is quite hard. I had previously done it once before, but that desing was quite bare bones, contrasting to this website, which had several difficult areas. One of those specific areas were the quotation marks behind the text in Daniel Clifford's review box. I solved it through the use of divs and the position CSS variable.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+'''css
+#overlapcontainerdaniel {
+    position: relative;
+    background-color: hsl(263, 55%, 52%);
+}
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+#quote-img {
+    background-color: hsl(263, 55%, 52%);
+    margin-top: -67px;
+    margin-left: 390px;
+    position: absolute;
+}
 
-## Deploying your project
+#bigtextclifford {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    position: relative;
+    background-color: transparent;
+}
+'''
 
-Deploy your site through GitHub Pages.
+After figuring out Daniel Clifford's box, it was quite easy to solve the rest, as I had a sort of template to go off of now. However, after that, I did struggle with making it mobile-accessible. The way I solved this was through the use of the @media (max-width) variables in CSS.
 
-## Create a custom `README.md`
+'''css
+@media (max-width: 900px) {
+    body {
+        margin: 0px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
 
-You must overwrite this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+    #danielcliffordbox {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+        box-shadow: 10px 20px 10px 0px rgba(186, 186, 186);
+        margin-bottom: 20px;
+    }
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+    #quote-img {
+        display:none;
+    }
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+    #waltersbox {
+        width: 300px;
+    }
 
-## Submitting your solution
+    #harmonbox {
+        width: 300px;
+    }
 
-Submit your live site link and repo link on Blackboard for grading. 
+    #abramsbox {
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 0px;
+        height: 350px;
+    }
 
-**Have fun building!** 🚀
+    #whittlebox {
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 430px;
+    }
+
+    #whittleimg {
+        margin-top: 10px;
+    }
+
+    #whittlesubtitle {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .attribution {
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+}
+'''
+
+### Continued development
+
+One area that I think would be very beneficial to learn would be the ability to make my CSS and HTML be automatically adjustable to screens using only a few lines of code, as opposed to me having to manually adjust everything. In fact, it would be beneficial for me to learn how to make everything automatic, instead of using negative margins.
+
+### Useful resources
+
+- https://pavellaptev.medium.com/css-weekly-2-an-image-on-the-left-text-on-the-left-a5e59b2acdb5 - This helped me learn how to align an image on the left, whilst keeping the text on the right. This specifically helped me with the image then the name and title in the cards.
+- https://stackoverflow.com/questions/49243420/how-to-move-element-in-css-up-so-that-elements-underneath-will-follow - This helped me understand how margins, borders, and paddings worked. It also made me use a negative margin, though, so...
+
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex3 - This helped me understand how to overlap elements over others.
+
+## Author
+
+- Website - Nicholas Foles: https://github.com/Iizgamer
+
+## Acknowledgments
+
+Sami: Helped me throughout this entire project. Especially in the mobile layout section.
