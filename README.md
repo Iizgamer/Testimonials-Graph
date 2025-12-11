@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: https://github.com/Iizgamer/Testimonials-Graph.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://iizgamer.github.io/Testimonials-Graph/index.html
 
 ## My process
 
